@@ -4,7 +4,6 @@ import numpy as np
 import pickle
 import json
 from flask import Flask, render_template, request
-from flask_ngrok import run_with_ngrok
 import nltk
 from tensorflow.keras.models import load_model
 from nltk.stem import WordNetLemmatizer
